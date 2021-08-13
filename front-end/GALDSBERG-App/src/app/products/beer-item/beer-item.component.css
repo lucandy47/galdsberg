@@ -1,0 +1,67 @@
+/* Beer container */
+.img-div{
+    margin-top:5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.card-img-top{
+ 
+  width: auto;
+  height:230px;
+  cursor:pointer;
+}
+
+hr{
+    border-style:none;
+    border-top-style: dotted;
+    border-width:5px;
+    border-color:rgb(180, 182, 182);
+    width: 50%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+
+  .card-no-desc{
+        text-align: center;
+  }
+  .card-desc{
+      margin-top:5px;
+      font-size: 18px;
+      font-family:"Ubuntu";
+  }
+/* Footer */
+/* Add to cart button */
+.add-to-cart-btn {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:8px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:5px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.add-to-cart-btn:hover {
+	background-color:rgb(238, 234, 234);
+}
+.add-to-cart-btn:active {
+	position:relative;
+	top:1px;
+}
+
+.card-footer{
+    text-align:center;
+}
+
+.beer-link{
+  color:#659DBD;
+  cursor:pointer;
+}

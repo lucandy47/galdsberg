@@ -1,0 +1,17 @@
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Controllers\OrderController.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Controllers\ProductsController.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Entities\Order.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Entities\Beer.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Repositories\OrderRepository.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Services\ProductsService.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Services\OrderService.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Entities\User.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Controllers\UserController.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Services\UserService.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Entities\Email.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Services\EmailService.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Services\JwtUtilService.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\GaldsbergApplication.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Repositories\ProductsRepository.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Controllers\CustomerController.java
+D:\facultate\an4sem1\PAW\paw-proiect-pawagls-echipa-de-10\back-end\galdsberg\src\main\java\com\paw\galdsberg\Repositories\UserRepository.java

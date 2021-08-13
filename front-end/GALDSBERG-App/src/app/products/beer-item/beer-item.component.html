@@ -1,0 +1,20 @@
+<div class="card h-100">
+    <div class="img-div">
+    <a (click)="viewBeer(beer.id)"><img class="card-img-top" src="assets/images/{{beer.img_name}}" alt="" /></a>
+  </div>
+    <div class="card-body">
+      <div class="card-no-desc">
+      <h4 class="card-title">
+        <a (click)="viewBeer(beer.id)" class="beer-link">{{beer.name}}</a>
+      </h4>
+      <p class="card-text">Quantity:   {{beer.quantity}}</p>
+      <p class="card-text">Alcohol volume:   {{beer.alc_vol}}</p>
+      <p class="card-text">Country:   {{beer.country}}</p>   
+    </div>
+    <hr/>
+    <p class="card-text card-desc">{{beer.description}}</p>  
+    </div>
+    <div class="card-footer">
+      <a (click)="addToCartHandle()" class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Add to cart<br/><span>{{beer.price}} lei</span></a>
+    </div>
+  </div>

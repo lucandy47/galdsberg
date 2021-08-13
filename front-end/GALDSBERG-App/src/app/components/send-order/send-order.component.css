@@ -1,0 +1,42 @@
+.container-cart{
+    margin:30px 100px 30px 100px;
+}
+
+
+.img-div{
+    margin-top:5px;
+    text-align: center;
+    display: block;
+
+}
+.img-photo{
+    width:auto;
+    height: 200px;
+}
+.beer-name{
+    margin-top:80px;
+    margin-bottom: 20px;
+}
+.icon{
+    font-size:1.5rem;
+    cursor:pointer;
+    margin-right: 40px;
+
+}
+
+div.order-sent{
+   margin:5% 30% 5% 30%;
+    padding:40px;
+    
+    border:2px solid black;
+    background-image:linear-gradient(rgb(234, 236, 234),rgb(179, 182, 179),rgb(185, 185, 185)) ;
+    border-radius:10px;
+    text-align:center;
+    font-family: cursive;
+    font-size:18px;
+  }
+  div.order-sent p{
+    font-size: 25px;
+
+    
+  }

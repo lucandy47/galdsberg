@@ -1,0 +1,33 @@
+<div class="tableDiv">
+
+<table class="table table-bordered table-striped" >
+    <thead  class="thead-dark">
+      <tr>
+        <th scope="col">Id</th>
+        <th scope="col">Name</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Alc_vol</th>
+        <th scope="col">Country</th>
+        <th scope="col">Price</th>
+        <th scope="col">Type</th>
+        <th scope="col">Operation</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let beer of beers">
+        <th scope="row">{{beer.id}}</th>
+        <td>{{beer.name}}</td>
+        <td>{{beer.quantity}}</td>
+        <td>{{beer.alc_vol}}</td>
+        <td>{{beer.country}}</td>
+        <td>{{beer.price}}</td>
+        <td>{{beer.type}}</td>
+        <td class="operation"><button (click) = "updateBeer(beer.id)" class = "btn btn-info"> Update</button>
+            <button (click) = "deleteBeer(beer.id)" class = "btn btn-danger" style="margin-left: 10px"> Delete</button></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+<div class="buttons">
+  <button (click) = "goToAddBeer()" class = "btn btn-info"> Add new beer</button>
+</div>

@@ -1,0 +1,12 @@
+<div class="continut">
+  <div class="divForm">
+      <img style="width:60px;margin-bottom:15px;" src="assets/images/login.png" alt="login"/>
+      <p id="idmesajEroareLogin">{{errorMessage}}</p>
+  <form id="formlog" #loginForm="ngForm" (ngSubmit)="loginUser()">
+      <label id="lutil">Username: </label><input type="text" name="util" id="util" [(ngModel)]="user.username"/><br/>
+      <label id="lpass">Password: </label><input type="password" name="pass" id="pass" [(ngModel)]="user.password"/><br/>
+      <input [disabled]="loginForm.form.invalid" type="submit" value="Login" id="autent"/>
+  </form>
+  <p>Don't have an account? <br/><a routerLink="../register">Register!</a></p>
+  </div>
+</div>

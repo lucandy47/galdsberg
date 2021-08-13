@@ -1,0 +1,59 @@
+
+<div class="container-shop">
+
+    <div class="row">
+
+      <div class="col-lg-3">
+
+        
+        <div class="list-group">
+          <a routerLink="../products" class="list-group-item"><strong>All products</strong></a>
+          <a routerLink="lagerAndPils" class="list-group-item not-all">Lager and Pilsner</a>
+          <a routerLink="wheat" class="list-group-item not-all">Wheat Beer</a>
+          <a routerLink="ipa" class="list-group-item not-all">Indian Pale Ale</a>
+          <a routerLink="dark" class="list-group-item not-all">Dark beer</a>
+          <a routerLink="specialties" class="list-group-item not-all">Specialties</a>
+        </div>
+        <app-cart></app-cart>
+
+      </div>
+      <!-- /.col-lg-3 -->
+
+      <div class="col-lg-9 beer-list">
+
+        <table width=60% border="0" class="sort-element">
+          <tr>
+          <td>&nbsp;</td>
+            <td>Sort by: </td>
+            <td>
+              <a (click)="sortPriceAscending()" class="sort-item">Price ascending</a>
+             </td>
+             <td>
+              <a (click)="sortPriceDescending()" class="sort-item">Price descending</a>
+             </td>
+             <td>
+              <a (click)="sortNameAscending()" class="sort-item">Name ascending</a>
+             </td>
+             <td>
+              <a (click)="sortNameDescending()" class="sort-item">Name descending</a>
+             </td>
+            
+          </tr>
+       </table>
+        <div class="row">
+
+          <div *ngFor="let beer of beers" class="col-lg-4 col-md-6 mb-4">
+            <app-beer-item [beer]="beer"></app-beer-item>
+          </div>
+
+          
+        </div>
+        <!-- /.row -->
+
+      </div>
+      <!-- /.col-lg-9 -->
+
+    </div>
+    <!-- /.row -->
+
+  </div>

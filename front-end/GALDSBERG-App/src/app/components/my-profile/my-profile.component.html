@@ -1,0 +1,73 @@
+<div class="container-profile">
+
+    <div class="row">
+        <div class="col-lg-3">
+                <div class="list-group">
+                    <a (click)="setOptionProfile()" class="list-group-item">See my profile</a>
+                    <a (click)="setOptionOrders()" class="list-group-item">See my orders</a>
+                </div>
+
+        </div>
+            <div *ngIf="option=='profile'" class="col-lg-9 divInreg">
+                    <img style="width:120px;margin-bottom:15px;" src="assets/images/user.png" alt="update"/>
+                    <p id="idmesajEroare">{{errorMessage}}</p>
+                    <form class="formSign" #registerForm="ngForm" (ngSubmit)="updateUser()">
+                        <label id="lutil">Username: </label><input type="text" name="util" id="util" [(ngModel)]="user.username" readonly/><br/>
+                        <label id="nume">Last name: </label><input type="text" name="nume" id="nume" [(ngModel)]="user.lastName"/><br/>
+                        <label id="prenume">First name: </label><input type="text" name="prenume" id="prenume" [(ngModel)]="user.firstName"/><br/>
+                        <label id="email">Email: </label><input type="email" name="email" id="email" [(ngModel)]="user.email"/><br/>
+                        <input [disabled]="registerForm.form.invalid" type="submit" value="Update profile" id="autent"/>
+                    </form>
+                 
+            </div>
+            <div *ngIf="option=='orders'" class="col-lg-9">
+                <div *ngIf="orderList.length>0"class="table-responsive">
+                    <table class="table">
+                      <thead>
+                        <tr>
+                          <th scope="col" class="border-1 bg-light">
+                            <div class="p-2 px-3 text-uppercase">Order no.</div>
+                          </th>
+                          <th scope="col" class="border-1 bg-light">
+                              <div class="py-2 text-uppercase">First name</div>
+                            </th>
+                          <th scope="col" class="border-1 bg-light">
+                            <div class="py-2 text-uppercase">Last name</div>
+                          </th>
+                          <th scope="col" class="border-1 bg-light">
+                            <div class="py-2 text-uppercase">Total</div>
+                          </th>
+                          <th scope="col" class="border-1 bg-light">
+                            <div class="py-2 text-uppercase">Address provided</div>
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody *ngFor="let order of orderList">
+                        <tr>
+                          <th scope="row" class="border-1">
+                            <div class="p-2 img-div">
+                                <td class="border-0 align-middle"><strong>{{order.id}}</strong></td>
+                            </div>
+                          </th>
+                         
+                            
+                            <td class="border-0 align-middle"><strong>{{order.firstName}}</strong></td>
+                           
+                          
+                          <td class="border-0 align-middle"><strong>{{order.lastName}}</strong></td>
+                          <td class="border-0 align-middle"><strong>{{order.total}} RON</strong></td>
+                          <td class="border-0 align-middle"><strong>{{order.address}}</strong> </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div *ngIf="orderList.length == 0" class="order-sent">
+                        <p>You don't have any orders yet.</p>
+                        
+                  </div>
+            </div>
+
+    </div>
+   
+   
+</div>

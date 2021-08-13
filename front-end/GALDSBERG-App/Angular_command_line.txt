@@ -1,0 +1,7 @@
+npm install --save-dev @angular-devkit/build-angular
+
+
+Adresa de email pe care se pot vedea mesajele trimise din pagina de contact:
+
+email:ProiectPaw2020@gmail.com   
+parola:Final2020

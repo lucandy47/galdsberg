@@ -1,0 +1,32 @@
+<div class="col-md-6 offset-md-3">
+    <p id="idmesajEroare">{{errorMessage}}</p>
+    <form class="formSign" #registerForm="ngForm" (ngSubmit)="addNewBeer()">
+     <div class="form-group">
+        <label >Beer name: </label><input type="text" name="name" id="name" class ="form-control" [(ngModel)]="beer.name"/><br/>
+    </div>
+    <div class="form-group">
+        <label >Quantity: </label><input type="text" name="quantity" id="quantity" class ="form-control" [(ngModel)]="beer.quantity"/><br/>
+    </div>
+    <div class="form-group">
+        <label >Alcohol volume: </label><input type="text" name="alc_vol" id="alc_vol" class ="form-control" [(ngModel)]="beer.alc_vol"/><br/>
+    </div>
+        <div class="form-group">
+        <label >Country: </label><input type="text" name="country" id="country" class ="form-control" [(ngModel)]="beer.country"/><br/>
+    </div>
+        <div class="form-group">
+        <label >Price: </label><input type="text" name="price" id="price" class ="form-control" [(ngModel)]="beer.price"/><br/>
+    </div>
+    <div class="form-group">
+        <label >Description: </label><input type="text" name="description" id="description" class ="form-control" [(ngModel)]="beer.description"/><br/>
+    </div>
+    <div class="form-group">
+        <label >Image name: </label><input type="text" name="img_name" id="img_name" class ="form-control" [(ngModel)]="beer.img_name"/><br/>
+    </div>
+    <div class="form-group">
+        <label >Type : </label><input type="text" name="type" id="type" class ="form-control" [(ngModel)]="beer.type"/><br/>
+    </div>
+
+
+        <input [disabled]="registerForm.form.invalid" type="submit" value="Add beer" class = "btn btn-success"/>
+    </form>
+</div>

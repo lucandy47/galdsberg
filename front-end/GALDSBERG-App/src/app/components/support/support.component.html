@@ -1,0 +1,24 @@
+<div class="container">
+
+
+<form (ngSubmit)="onSubmit()" #contacto>
+    <div class="form-group">
+      <label for="nombre">Subject</label>
+      <input type="text" class="form-control" id="name" required [(ngModel)]="mail.subject" name="subject">
+    </div>
+
+    <div class="form-group">
+      <label for="sender">Email</label>
+      <input type="text" class="form-control" id="sender" required [(ngModel)]="mail.sender" name="sender">
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <input type="text" class="form-control" id="message" required [(ngModel)]="mail.message" name="message">
+    </div>
+    <div style="text-align: center;">
+      <button type="submit" class=" button">Send</button>
+    </div>
+    
+  </form>
+</div>

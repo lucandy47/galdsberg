@@ -1,0 +1,59 @@
+.container-beer{
+    margin:25px 50px 25px 50px;
+}
+.desc-div{
+    margin-top:5%;
+}
+
+.cart-div{
+    border-right:0.5px solid;
+   
+}
+
+
+.img-div{
+    margin-top:5px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+.card-img-top{
+    width: auto;
+  height:400px;
+}
+.card-title{
+    text-align: center;
+    font-size: 30px;
+}
+.card-text{
+    font-size:20px;
+}
+
+.btn-div{
+    text-align: center;
+}
+.add-to-cart-btn {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background-color:transparent;
+	border-radius:8px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Trebuchet MS;
+	font-size:16px;
+	font-weight:bold;
+	padding:15px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.add-to-cart-btn:hover {
+	background-color:rgb(238, 234, 234);
+}
+.add-to-cart-btn:active {
+	position:relative;
+	top:1px;
+}
+

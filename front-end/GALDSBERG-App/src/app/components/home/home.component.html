@@ -1,0 +1,97 @@
+
+<section id="ads">
+ 
+    <div id="ad-carousel" class="carousel slide" data-ride="false">
+      <div class="carousel-inner">
+        <div  class="carousel-item active" *ngIf="bestSellerBeer">
+          <h2 class="ad-text">Best seller on our website.
+             
+          </h2>
+          <a (click)="viewBeer(bestSellerBeer.id)" style="cursor:pointer;"><img class="testimonial-image" src="assets/images/{{bestSellerBeer.img_name}}" alt="bestSeller-image"></a>
+          <div><h3>{{bestSellerBeer.name}}</h3>
+            <a (click)="goToProducts(bestSellerBeer)" class="check-more-btn"><i class="fas fa-arrow-circle-right"></i > Check more products from this category</a>
+          </div>
+        </div>
+        <div class="carousel-item" *ngIf="newestAdditionBeer">
+          <h2 class="ad-text">Newest addition to our shop!</h2>
+          <a (click)="viewBeer(newestAdditionBeer.id)" style="cursor:pointer;"><img class="testimonial-image" src="assets/images/{{newestAdditionBeer.img_name}}" alt="newestAdditionBeer-image"></a>
+          <div><h3>{{newestAdditionBeer.name}}</h3>
+            <a (click)="goToProducts(newestAdditionBeer)" class="check-more-btn"><i class="fas fa-arrow-circle-right"></i> Check more products from this category</a>
+          </div> 
+        </div>
+
+      </div>
+      <a class="carousel-control-prev" href="#ad-carousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#ad-carousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+  </section>
+
+
+  <section id="features">
+    <div class="row  div-desc">
+
+
+      <div class="col-lg-4 enum-sect2">
+        <i class="fas fa-check-circle icon-sect2"></i>
+        <h3>Order online.</h3>
+        <p class="p-sect2">We deliver anywhere in Romania, in maximum 5 working days.</p>
+      </div>
+      <div class="col-lg-4 enum-sect2">
+
+        <i class="fas fa-heart icon-sect2"></i>
+        <h3>Guaranteed quality.</h3>
+        <p class="p-sect2">We offer only the best to our customers.</p>
+      </div>
+      <div class="col-lg-4 enum-sect2">
+
+        <i class="fas fa-times icon-sect2"></i>
+        <h3>Be responsible!</h3>
+        <p class="p-sect2">Do not order if you are under 18 years old!</p>
+      </div>
+    </div>
+
+    <hr>
+    
+    <div class="shop-desc-row">
+        <img class="feature-img" src="https://media.giphy.com/media/X530jPOZXRMwo/giphy.gif" alt="feature-img-1">
+        <p class="shop-desc">Our shop has the largest and most variate range of beers in Romania. Our beers are brought from all around the world and can be ordered exclusively online at any time in the day.
+        </p>
+        <a routerLink="products" class="view-products-btn">See our products</a>
+    </div>
+
+  </section>
+
+<section id="story">
+  <div class="img-row">
+    <div class="col-img">
+      <img class="img-story" src="assets/images/beer1.jpg" alt="beer1">
+    </div>
+    <div class="col-img">
+      <img class="img-story" src="assets/images/beer2.jpg" alt="beer2" >
+    </div>
+    <div class="col-img">
+      <img class="img-story" src="assets/images/beer3.jpg" alt="beer3" >
+    </div>
+  </div>
+  <h4>Our story began from a simple idea to come in help for all beer enthusiasts from Romania and to bring the flavours from all the corners of the world straight to your homes.
+    Started as a simple concept, we reached very fast on the top of romanian people who desire to try new things in the matter of drinks based on hop and barley.
+    Thank you!
+  </h4>
+
+</section>  
+
+<section id="press">
+  <img class="press-logo" src="assets/images/carlsberg.png" alt="carlsberg-logo">
+  <img class="press-logo" src="assets/images/heineken.png" alt="heineken-logo">
+  <img class="press-logo" src="assets/images/paulaner.png" alt="paulaner-logo">
+  <img class="press-logo" src="assets/images/ursus.png" alt="ursus-logo">
+  <img class="press-logo" src="assets/images/leffe.png" alt="leffe-logo">
+  <img class="press-logo" src="assets/images/estrella.png" alt="estrella-logo">
+
+</section>
+

@@ -1,0 +1,15 @@
+.tableDiv{
+    margin:50px 30px 50px 30px;
+}
+
+.buttons{
+    align-items: center;
+    display: flex;
+  justify-content: center;
+    margin-bottom:40px;
+}
+.operation{
+    align-items: center;
+    display: flex;
+  justify-content: center;
+}

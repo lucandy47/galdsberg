@@ -1,0 +1,39 @@
+div.divInreg{
+    font-family:Comic Sans MS;
+    font-size:20px;
+    margin-left:20%;
+    margin-right:20%;
+    margin-top:5%;
+    margin-bottom:5%;
+    padding: 40px;
+    box-shadow: 2px 5px 10px 10px #454447;
+    background-color:none;
+    border-radius: 10px;
+}
+.formSign input#passconf,.formSign input#pass,.formSign input#util,.formSign input#email,.formSign input#nume,.formSign input#prenume{
+  width: 100%;
+  padding: 10px;
+  margin: 3px;
+  display: inline-block;
+  border-radius: 10px;
+  border:1px solid black;
+  background: #f1f1f1;
+}
+
+.formSign label{
+  margin-left:5%;
+}
+div.divInreg img{
+  margin-left:42%;
+  margin-right:45%;
+}
+div.divInreg input#autent{
+  padding:20px;
+  margin-left:40%;
+  margin-right:40%;
+
+}
+#idmesajEroare{
+  color:red;
+  margin-left:35%;
+}

@@ -1,0 +1,22 @@
+.container-shop{
+    margin:20px 100px 20px 100px;
+}
+
+.list-group-item{
+    background-color: #659DBD;
+    color:white;
+}
+.not-all{
+    margin-left:3%;
+}
+
+.sort-element{
+    margin-bottom:20px;
+}
+.sort-item{
+    padding:5px;
+    border:1px solid black;
+    text-decoration: none;
+    cursor:pointer;
+    color:black;
+}

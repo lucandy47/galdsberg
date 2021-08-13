@@ -1,0 +1,36 @@
+<div class="container-beer">
+
+    <div class="row">
+
+        <div class="col-lg-3 cart-div">
+            <app-cart></app-cart>
+            
+          </div>
+      <div class="col-lg-2 img-div">
+        <img class="card-img-top img-fluid" src="assets/images/{{beer.img_name}}" alt="">
+        
+      </div>
+
+      <div class="col-lg-7 desc-body">
+        
+          <div class="card-body">
+            <h3 class="card-title">{{beer.name}}</h3>
+            <br/>
+            <br/>
+            <p class="card-text"><strong>Quantity per bottle:</strong> {{beer.quantity}}</p>
+            <p class="card-text"><strong>Price:</strong> {{beer.price}} RON</p>
+            <p class="card-text"><strong>Alcohol per volume:</strong> {{beer.alc_vol}}</p>
+            <p class="card-text"><strong>Origin country:</strong> {{beer.country}}</p> <br/>           
+            <p class="card-text"><strong>Description:<br/></strong> {{beer.description}}</p>
+            <div class="btn-div">
+                <a (click)="addToCartHandle()" class="add-to-cart-btn"><i class="fas fa-cart-plus"></i> Add to cart</a>
+            </div>
+            
+        </div>
+        
+        <!-- /.card -->
+      </div>
+      <!-- /.col-lg-9 -->
+    </div>
+
+  </div>

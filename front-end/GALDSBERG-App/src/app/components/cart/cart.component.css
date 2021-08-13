@@ -1,0 +1,41 @@
+.item-container{
+    margin-top:40px;
+}
+
+.item-show{
+    text-align: center;
+    background-color: aliceblue;
+}
+.delete-beer{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.icon{
+    color:rgb(216, 117, 81);
+    font-size:1.5rem;
+    cursor: pointer;
+    
+}
+.icon:hover{
+    color:rgb(223, 141, 111);
+}
+
+.total-li{
+    
+    text-align: center;
+    background-color: rgb(70, 149, 214);
+    font-size:1.2rem;
+    color:white;
+}
+.title-cart{
+    text-align: center;
+    background-color: rgb(70, 149, 214);
+    font-size:1.2rem;
+    color:white;
+}
+
+.send-btn{
+    text-align: center;
+    border:none;
+}
